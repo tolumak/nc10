@@ -1,0 +1,19 @@
+#"amixer sset Master 2+ &"
+#    m:0x0 + c:176
+#"amixer sset Master 2- &"
+#    m:0x0 + c:174
+#"amixer sset Master 0 &"
+#"amixer sset Master toggle &"
+#    m:0x0 + c:160
+#"sudo pm-suspend"
+#    m:0x0 + c:223
+"/home/tolumak/.nc10/hibernate.sh"
+    m:0x0 + c:124
+"/home/tolumak/.nc10/suspend.sh"
+    m:0x0 + c:150
+"xbacklight +15"
+    m:0x0 + c:233
+"xbacklight -10"
+    m:0x0 + c:232
+"/home/tolumak/.nc10/wifi-onoff.sh toggle"
+    m:0x0 + c:246
